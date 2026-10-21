@@ -1,0 +1,32 @@
+{
+  "name": "realestate-analytics",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@tanstack/react-query": "^5.59.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^7.18.4",
+    "recharts": "^2.13.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.14",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~5.6.3",
+    "vite": "^6.4.0"
+  }
+}
